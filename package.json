@@ -9,6 +9,9 @@
     "darwin",
     "linux"
   ],
+  "scripts": {
+    "install": "ncp /usr/sbin/screencapture bin/sc"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/uiureo/node-screencapture.git"
@@ -19,6 +22,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "mocks": "0.0.15"
+    "mocks": "0.0.15",
+    "ncp": "^2.0.0"
   }
 }
