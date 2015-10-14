@@ -10,20 +10,21 @@
     "linux"
   ],
   "scripts": {
-    "install": "which /usr/sbin/screencapture && ncp /usr/sbin/screencapture bin/sc || cd ."
+    "install": "node lib/install.js",
+    "uninstall": "node lib/uninstall.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/uiureo/node-screencapture.git"
+    "url": "git://github.com/fritx/node-screencapture.git#gt"
   },
   "dependencies": {
-    "tape": "^2.13.1",
-    "tmp": "0.0.23"
+    "shelljs": "^0.5.3",
+    "tmp": "0.0.23",
+    "user-home": "^2.0.0"
   },
   "license": "MIT",
   "devDependencies": {
     "mocks": "0.0.15",
-    "ncp": "^2.0.0",
-    "which": "^1.2.0"
+    "tape": "^2.13.1"
   }
 }
