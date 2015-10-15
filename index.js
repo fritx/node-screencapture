@@ -1,6 +1,9 @@
 var tmp = require('tmp')
   , capture = require('./lib/capture_exec').capture
 
+// auto try to install before required
+require('./lib/install')
+
 /*
    Capture a screenshot and resolve with the image path
 
