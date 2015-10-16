@@ -9,10 +9,6 @@
     "darwin",
     "linux"
   ],
-  "scripts": {
-    "install": "node lib/install.js",
-    "uninstall": "node lib/uninstall.js"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/fritx/node-screencapture.git#gt"
